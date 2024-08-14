@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*Estilos usados nessa pagina*/
+          body{
+            color: white;
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        ul{
+            font-size: 40px;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            align-items: center;
+            padding: 50px;
+            border: solid 1px gold;
+            border-radius: 15px;
+        }
+        
+        a{
+            color: white;
+        }
+
+        nav a:hover{
+            color: gold;
+        }
+
+        img{
+            width: 300px;
+            height: 300px;
+            border: 5px solid white;
+            border-radius: 25%;
+        }
+
+        h1{
+            color: gold;
+        }
+
+        h3{
+            color: gold;
+        }
+
+        p{
+            font-size: 18px;
+            padding: 0px 30px;
+        }
+
+        /*Classes usadas nessa pagina*/
+        .container{
+            padding: 0px 60px;
+        }
+
+        .eu{
+            text-align: center;
+            padding: 15px;
+        }
+
+        .imagem{
+            width: 250px;
+            height: 200px;
+            border: 5px solid gold;
+            border-radius: 10%;
+       }
+        
+
+    </style>
+
+</head>
+<body>
+    <!--Menu da pagina como os links-->
+    <div class="container">
+    <nav>
+        <ul>
+            <li><a href="Index.html"><b>Sobre mim</b></a></li>
+            <li><a href="Formacao.html"><b>Formação</b></a></li>
+            <li><a href="Portifolio.html"><b>Portifólio</b></a></li>
+            <li><a href="Contato.html"><b>Contato</b></a></li>
+        </ul>
+    </nav>
+    <header>
+        <!--imagem do centro-->
+        <div class="eu">
+            <img src="./imagens/diplomado.png"></img>
+        </div>
+        <!--Imagens e textos sobre a formação-->
+       <h1>Formação e Experiências</h1>
+       <h2>Abaixo temos as formações que eu finalizei ou estão em andamento. </h2>
+    </header>
+    <main>
+        <section>
+            <h3>ADS – Analise e Desenvolvimento de Sistema (UNINTER – 2023/Andamento)</h3>
+            <p>
+                O curso de Análise e Desenvolvimento de Sistemas a distância da Uninter adquirem conhecimentos sólidos em linguagem de programação, engenharia de software, segurança da informação, entre outros. Os futuros analistas de sistemas aprendem a desenvolver aplicativos, sistemas web e mobile, além de dominar as mais recentes tecnologias e metodologias de desenvolvimento. <br><br>
+                <img class="imagem" src="./imagens/uninter.jpeg"></img>
+            </p>
+
+            <h3>Curso de pacote Office Word, Excel e PowerPoint - Intermediarip (Fundação Bradesco - 2022/Finalizado)</h3>
+            <p>
+                No Word, podemos criar qualquer tipo de documento que envolva textos, quadrinhos, revistas, panfletos, jornais, etc. Além disso, você pode enriquecer o seu documento, utilizando tabelas, gráficos, imagens, índices e muitos outros recursos. 
+                Podemos criar e formatar planilhas e gráficos no Excel, até a trabalhar com funções financeiras, estatísticas e funções aninhadas, de maneira que o raciocínio seja aprimorado para situações mais complexas.
+                De forma simples, editar e gerenciar apresentações no PowerPoint, trabalhando com elementos gráficos, aplicando efeitos de animação e transição de slides, entre outras ações. <br><br>
+                <img class="imagem" src="./imagens/fundacao-bradesco.png"></img>
+                
+            </p>
+        
+            <h3>Curso de Mecânico de Manutenção – Profissionalizante (SENAI – 2019/Finalizado)</h3>
+            <p>
+                Faço a manutenção corretiva e planejada de máquinas industriais. Mecânico de Manutenção tem por objetivo proporcionar qualificação profissional para realizar a manutenção mecânica de máquinas, equipamentos e instalações, tendo em vista o aumento da confiabilidade do processo produtivo, em conformidade às normas e procedimentos de saúde e segurança no trabalho, de meio ambiente e de qualidade. <br><br>
+                <img class="imagem" src="./imagens/senai.jpg"></img>
+                
+            </p>
+        </section>
+    </main>
+    </div>
+
+</body>
+</html>
